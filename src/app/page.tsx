@@ -306,9 +306,9 @@ export default function HomePage() {
               </table>
               <div className="border-t border-navy-200 bg-navy-50 px-5 py-4">
                 <p className="text-[13px] leading-relaxed text-navy-600">
-                  <strong className="font-semibold text-navy-900">Never added later:</strong> stair
-                  fees, long-carry fees, fuel surcharges or materials billed above the quote. If we
-                  did not catch it at the walkthrough, we absorb it.
+                  <strong className="font-semibold text-navy-900">How we quote:</strong> stairs,
+                  carry distance, access and packing are all assessed during your free walkthrough
+                  and priced into the written flat rate you approve before moving day.
                 </p>
               </div>
             </div>
@@ -540,7 +540,6 @@ function Hero() {
               tone="dark"
               items={[
                 "Free in-home or video walkthrough before any price is quoted",
-                "No stair fees, long-carry fees or fuel surcharges — ever",
                 "Furniture disassembled, reassembled and placed where you want it",
                 "Open seven days a week, with same-day availability most weeks",
               ]}

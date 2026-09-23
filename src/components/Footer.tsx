@@ -148,7 +148,7 @@ export default function Footer() {
             Cargo and general liability coverage on every job. COIs issued same day.
           </TrustItem>
           <TrustItem icon="dollar" title="Flat-rate pricing">
-            Quoted before moving day. No stair fees, long-carry fees or fuel surcharges.
+            A written price agreed before moving day, based on a free walkthrough.
           </TrustItem>
           <TrustItem icon="star" title={`${site.stats.averageRating} average rating`}>
             {site.stats.movesCompleted} moves completed across Tampa Bay since {site.founded}.
@@ -173,9 +173,12 @@ export default function Footer() {
             <Link href="/accessibility" className="inline-block py-1 transition hover:text-white">
               Accessibility
             </Link>
-            <Link href="/sitemap.xml" className="inline-block py-1 transition hover:text-white">
+            {/* Not an app route — next/link would try a client-side
+                navigation that cannot resolve. Plain anchor forces a real
+                document request. */}
+            <a href="/sitemap.xml" className="inline-block py-1 transition hover:text-white">
               Sitemap
-            </Link>
+            </a>
           </nav>
         </div>
       </div>

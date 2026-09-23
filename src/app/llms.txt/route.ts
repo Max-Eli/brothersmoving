@@ -30,7 +30,7 @@ export function GET() {
 - Primary service area: Tampa Bay, Florida (Hillsborough, Pinellas, Pasco and Polk counties)
 - Founded: ${site.founded}
 - Hours: ${hours}
-- Pricing model: Flat rate, quoted in writing after a free walkthrough; no stair fees, long-carry fees or fuel surcharges
+- Pricing model: Flat rate, quoted in writing after a free walkthrough that assesses stairs, carry distance, access and packing
 - Licensing: ${site.credentials.usdotNote}
 - Insurance: ${site.credentials.insurance}
 - Rating: ${site.stats.averageRating}/5 across ${site.stats.reviewCount} reviews

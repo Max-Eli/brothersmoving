@@ -28,6 +28,13 @@ import {
 
 type Params = { params: Promise<{ slug: string }> };
 
+/**
+ * The slug set is fixed and fully known at build time, so anything outside it
+ * is a 404 rather than something to render on demand. Without this, Vercel
+ * invokes a function for every bogus URL a crawler or scanner tries.
+ */
+export const dynamicParams = false;
+
 export function generateStaticParams() {
   return areas.map((a) => ({ slug: a.slug }));
 }

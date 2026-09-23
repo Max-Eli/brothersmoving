@@ -1,19 +1,5 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "nextjs",
-  "regions": ["iad1"],
-  "redirects": [
-    { "source": "/services/residential", "destination": "/services/residential-moving", "permanent": true },
-    { "source": "/services/commercial", "destination": "/services/commercial-moving", "permanent": true },
-    { "source": "/areas", "destination": "/areas-we-serve", "permanent": true },
-    { "source": "/service-areas", "destination": "/areas-we-serve", "permanent": true },
-    { "source": "/blog", "destination": "/moving-tips", "permanent": true },
-    { "source": "/blog/:slug", "destination": "/moving-tips/:slug", "permanent": true },
-    { "source": "/get-a-quote", "destination": "/quote", "permanent": true },
-    { "source": "/free-quote", "destination": "/quote", "permanent": true },
-    { "source": "/contact-us", "destination": "/contact", "permanent": true },
-    { "source": "/about-us", "destination": "/about", "permanent": true },
-    { "source": "/testimonials", "destination": "/reviews", "permanent": true },
-    { "source": "/faqs", "destination": "/faq", "permanent": true }
-  ]
+  "regions": ["iad1"]
 }
