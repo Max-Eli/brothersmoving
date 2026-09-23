@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" width="300" height="64">
+  <title>Brothers EZ Moving of Tampa</title>
+  <rect width="64" height="64" rx="15" fill="#0c1c30"/>
+  <path d="M19 23.5 27.5 32 19 40.5" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M32.5 19 45.5 32 32.5 45" fill="none" stroke="#ff9937" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="80" y="31" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="21" font-weight="700" letter-spacing="-0.5" fill="#0c1c30">Brothers <tspan fill="#a63c09">EZ</tspan> Moving</text>
+  <text x="80" y="48" font-family="Helvetica Neue,Helvetica,Arial,sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.8" fill="#336fb1">OF TAMPA</text>
+</svg>

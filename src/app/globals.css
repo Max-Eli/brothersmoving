@@ -1,0 +1,111 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens. Navy conveys the "established, insured, not a guy with a van"
+ * positioning; amber is the action colour and is reserved for CTAs so it keeps
+ * its meaning. Every value here is referenced through Tailwind utilities.
+ */
+@theme {
+  --color-navy-50: #f2f6fb;
+  --color-navy-100: #e3ecf7;
+  --color-navy-200: #c2d6ec;
+  --color-navy-300: #90b4dc;
+  --color-navy-400: #578dc7;
+  --color-navy-500: #336fb1;
+  --color-navy-600: #245795;
+  --color-navy-700: #1e4679;
+  --color-navy-800: #1c3c65;
+  --color-navy-900: #132b48;
+  --color-navy-950: #0c1c30;
+
+  /* Orange scale tuned so every text/background pairing used in the UI meets
+     WCAG AA. 400 is the bright accent, reserved for dark backgrounds; 600 and
+     darker carry buttons, icons and text on light backgrounds. */
+  --color-amber-brand-50: #fff7ed;
+  --color-amber-brand-100: #ffedd5;
+  --color-amber-brand-200: #fed7aa;
+  --color-amber-brand-300: #fdba74;
+  --color-amber-brand-400: #ff9937;
+  --color-amber-brand-500: #ee6c0b;
+  --color-amber-brand-600: #c2470b;
+  --color-amber-brand-700: #a63c09;
+  --color-amber-brand-800: #8a3208;
+  --color-amber-brand-900: #7e3110;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+
+  --shadow-card: 0 1px 2px rgb(12 28 48 / 0.04), 0 8px 24px -8px rgb(12 28 48 / 0.10);
+  --shadow-lift: 0 2px 4px rgb(12 28 48 / 0.05), 0 18px 40px -12px rgb(12 28 48 / 0.18);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    /* Sticky header height + breathing room for anchor jumps. */
+    scroll-padding-top: 6.5rem;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: #ffffff;
+    color: var(--color-navy-900);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--color-navy-900);
+    color: #fff;
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-amber-brand-500);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  h1, h2, h3, h4 {
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@layer utilities {
+  /* Subtle topographic texture for dark hero panels. */
+  .bg-grid {
+    background-image:
+      linear-gradient(to right, rgb(255 255 255 / 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(255 255 255 / 0.05) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+
+  .text-shadow-hero {
+    text-shadow: 0 2px 24px rgb(12 28 48 / 0.45);
+  }
+
+  /* Scroll-reveal: visible by default so no-JS and pre-hydration render fine. */
+  .reveal {
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+  .reveal[data-visible="true"] {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
