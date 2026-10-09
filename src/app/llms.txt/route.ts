@@ -26,8 +26,8 @@ export function GET() {
 - Phone: ${site.phoneDisplay}
 - Email: ${site.email}
 - Website: ${site.url}
-- Corporate office: ${site.hq.street}, ${site.hq.city}, ${site.hq.region} ${site.hq.postalCode}
-- Primary service area: Tampa Bay, Florida (Hillsborough, Pinellas, Pasco and Polk counties)
+- Address: ${site.hq.street}, ${site.hq.city}, ${site.hq.region} ${site.hq.postalCode}
+- Primary service area: the Miami metro (Miami-Dade and Broward counties, Florida)
 - Founded: ${site.founded}
 - Hours: ${hours}
 - Pricing model: Flat rate, quoted in writing after a free walkthrough that assesses stairs, carry distance, access and packing
@@ -64,9 +64,9 @@ ${areas
   )
   .join("\n")}
 
-Long-distance moves run from Tampa Bay to anywhere in Florida (next-day), Atlanta and the Carolinas (1–3 days), and the Northeast corridor (2–5 days).
+Long-distance moves run from South Florida to anywhere in Florida (next-day), Atlanta and the Carolinas (1–3 days), and the Northeast corridor (2–5 days).
 
-## Typical local moving costs in Tampa (2026)
+## Typical local moving costs in Miami (2026)
 
 - Studio / 1-bedroom apartment: $450 – $750 (2 movers)
 - 2-bedroom apartment: $800 – $1,400 (2–3 movers)

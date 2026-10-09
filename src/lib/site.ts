@@ -14,15 +14,15 @@ export const site = {
   url: "https://brothersezmove.com",
   domain: "brothersezmove.com",
 
-  tagline: "Tampa Bay's Straightforward, Flat-Rate Moving Company",
+  tagline: "South Florida's Straightforward, Flat-Rate Moving Company",
   /** Long form — used for JSON-LD and on-page copy, where length is fine. */
   description:
-    "EZ Movers and Storage is a licensed and insured moving company serving Tampa, St. Petersburg, Clearwater and the surrounding Tampa Bay area. Local moves, long-distance moves, packing, storage and labor-only help — quoted up front, with no hidden fees.",
+    "EZ Movers and Storage is a licensed and insured moving company serving Miami, Miami Beach, Aventura, Fort Lauderdale and the surrounding Miami-Dade and Broward areas. Local moves, long-distance moves, packing, storage and labor-only help — quoted up front, with no hidden fees.",
 
   /** Short form — meta descriptions only. Kept under 160 chars so search
    *  results are not truncated mid-sentence. */
   metaDescription:
-    "Licensed, insured movers serving Tampa, St. Petersburg, Clearwater and all of Tampa Bay. Local and long-distance moves, packing and storage. Flat-rate pricing.",
+    "Licensed, insured movers serving Miami, Miami Beach, Aventura and all of South Florida. Local and long-distance moves, packing and storage. Flat-rate pricing.",
 
   phone: "3056978717",
   phoneDisplay: "(305) 697-8717",
@@ -30,11 +30,8 @@ export const site = {
   email: "info@brothersezmove.com",
   emailHref: "mailto:info@brothersezmove.com",
 
-  /**
-   * Corporate/registered office. The company brands and operates as a Tampa Bay
-   * mover, so the site markets a service area (see `serviceArea`) rather than
-   * claiming a Tampa storefront that does not exist.
-   */
+  /** Primary business address. The company operates out of North Miami Beach
+   *  and serves the surrounding Miami-Dade and Broward markets. */
   hq: {
     street: "1090 NE 160th Street",
     city: "North Miami Beach",
@@ -47,13 +44,13 @@ export const site = {
 
   /** Marketing home base — used for copy, targeting and geo coordinates. */
   base: {
-    city: "Tampa",
+    city: "Miami",
     region: "FL",
     regionName: "Florida",
-    latitude: 27.9506,
-    longitude: -82.4572,
-    /** Radius in metres covering Tampa Bay end to end. */
-    serviceRadius: 80000,
+    latitude: 25.9287,
+    longitude: -80.1623,
+    /** Radius in metres covering Miami-Dade and Broward end to end. */
+    serviceRadius: 65000,
   },
 
   hours: [

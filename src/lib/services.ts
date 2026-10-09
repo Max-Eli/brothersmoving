@@ -38,15 +38,15 @@ export const services: Service[] = [
     slug: "residential-moving",
     name: "Residential Moving",
     navLabel: "Residential Moving",
-    metaTitle: "Residential Movers in Tampa, FL",
+    metaTitle: "Residential Movers in Miami, FL",
     metaDescription:
-      "Full-service residential movers in Tampa Bay. Houses, townhomes and condos moved by trained crews. Flat-rate quotes. Call (305) 697-8717.",
+      "Full-service residential movers in South Florida. Houses, townhomes and condos moved by trained crews. Flat-rate quotes. Call (305) 697-8717.",
     summary:
-      "Full-service house moving across Tampa Bay, covering furniture disassembly, protective wrapping, loading, transport and placement in your new home.",
+      "Full-service house moving across South Florida, covering furniture disassembly, protective wrapping, loading, transport and placement in your new home.",
     tagline: "Your whole house, handled start to finish",
     icon: "home",
     intro: [
-      "A house move is the version of this job with the most moving parts: furniture that has to come apart, a garage nobody has fully inventoried, and a closing date that will not slide. Our residential crews handle roughly two-thirds of the moves we run each year across Hillsborough and Pinellas counties, and the process below is what we have settled on after several thousand of them.",
+      "A house move is the version of this job with the most moving parts: furniture that has to come apart, a garage nobody has fully inventoried, and a closing date that will not slide. Our residential crews handle roughly two-thirds of the moves we run each year across Miami-Dade and Broward counties, and the process below is what we have settled on after several thousand of them.",
       "Every residential job starts with a walkthrough — in person or over video — so we quote against what is actually in the house rather than a square-footage guess. That estimate is the number you pay. If we underestimate the work, that is our problem to absorb, not a line item added to your invoice on moving day.",
     ],
     includes: [
@@ -60,7 +60,7 @@ export const services: Service[] = [
       },
       {
         title: "Floor and doorway protection",
-        body: "Runners on hardwood and tile, door-jamb padding on tight entryways, and railing protection on stairwells. This matters more in older Seminole Heights and Hyde Park homes than anywhere else in the Bay.",
+        body: "Runners on hardwood and tile, door-jamb padding on tight entryways, and railing protection on stairwells. This matters more in older Coral Gables and Coconut Grove homes than anywhere else in the Bay.",
       },
       {
         title: "Appliance handling",
@@ -107,14 +107,14 @@ export const services: Service[] = [
     ],
     bestFor: [
       "Single-family homes, townhomes and villas",
-      "Families moving within Tampa Bay",
+      "Families moving within South Florida",
       "Anyone who wants furniture reassembled and placed, not dumped",
       "Moves with a hard closing or lease-end date",
     ],
     faqs: [
       {
-        q: "How far in advance should I book a residential move in Tampa?",
-        a: "Two to three weeks is comfortable for most dates. Book four to six weeks out for the last weekend of the month, any time in May through August, and the days around the first of the month — those are the slots that fill first across every Tampa Bay mover.",
+        q: "How far in advance should I book a residential move in Miami?",
+        a: "Two to three weeks is comfortable for most dates. Book four to six weeks out for the last weekend of the month, any time in May through August, and the days around the first of the month — those are the slots that fill first across every South Florida mover.",
       },
       {
         q: "Do I need to empty my dresser drawers?",
@@ -132,16 +132,16 @@ export const services: Service[] = [
     slug: "commercial-moving",
     name: "Commercial & Office Moving",
     navLabel: "Commercial & Office",
-    metaTitle: "Commercial & Office Movers in Tampa",
+    metaTitle: "Commercial & Office Movers in Miami",
     metaDescription:
-      "Office and commercial movers in Tampa Bay. After-hours and weekend relocations with minimal downtime. Get a scoped quote: (305) 697-8717.",
+      "Office and commercial movers in South Florida. After-hours and weekend relocations with minimal downtime. Get a scoped quote: (305) 697-8717.",
     summary:
-      "Office, retail and warehouse relocations across Tampa Bay, scheduled after hours or over a weekend so your business loses as little operating time as possible.",
+      "Office, retail and warehouse relocations across South Florida, scheduled after hours or over a weekend so your business loses as little operating time as possible.",
     tagline: "Move the business, not the business hours",
     icon: "building",
     intro: [
       "Commercial moving is measured in downtime, not hours on a truck. The question that matters is whether your team can work Monday morning — so we plan backwards from that, build the schedule around your closed hours, and sequence the load so the things people need first come off the truck first.",
-      "We handle everything from six-person offices in Westshore to full warehouse relocations in Ybor and Brandon. Larger jobs get a written move plan with a floor-by-floor sequence, a labelling scheme keyed to your new layout, and a single point of contact who stays on the job from load to final placement.",
+      "We handle everything from six-person offices in Brickell to full warehouse relocations in Wynwood and Kendall. Larger jobs get a written move plan with a floor-by-floor sequence, a labelling scheme keyed to your new layout, and a single point of contact who stays on the job from load to final placement.",
     ],
     includes: [
       {
@@ -212,7 +212,7 @@ export const services: Service[] = [
       },
       {
         q: "Do you carry a certificate of insurance for building management?",
-        a: "Yes. Send us the COI requirements from both property managers when you book and we will have certificates issued and submitted, usually the same day. Most Westshore and downtown Tampa towers require this before they will release a freight elevator.",
+        a: "Yes. Send us the COI requirements from both property managers when you book and we will have certificates issued and submitted, usually the same day. Most Brickell and downtown Miami towers require this before they will release a freight elevator.",
       },
       {
         q: "Can you move server racks and network equipment?",
@@ -226,16 +226,16 @@ export const services: Service[] = [
     slug: "long-distance-moving",
     name: "Long-Distance Moving",
     navLabel: "Long-Distance Moving",
-    metaTitle: "Long-Distance Movers from Tampa, FL",
+    metaTitle: "Long-Distance Movers from Miami, FL",
     metaDescription:
-      "Long-distance moving from Tampa across Florida and up the East Coast. Dedicated truck, guaranteed delivery window. Call (305) 697-8717.",
+      "Long-distance moving from Miami across Florida and up the East Coast. Dedicated truck, guaranteed delivery window. Call (305) 697-8717.",
     summary:
-      "Interstate and cross-Florida moves out of Tampa Bay on a dedicated truck, with a guaranteed delivery window and the same crew loading and unloading.",
+      "Interstate and cross-Florida moves out of South Florida on a dedicated truck, with a guaranteed delivery window and the same crew loading and unloading.",
     tagline: "One truck, one crew, a date you can plan around",
     icon: "route",
     intro: [
       "The complaint people have about long-distance moving is almost never the price — it is the not knowing. Shipments get consolidated with three other households, handed between carriers, and delivered inside a two-week 'spread' that makes it impossible to book time off or schedule a closing.",
-      "We run long-distance moves differently: your shipment goes on a dedicated truck, the crew that loads it is the crew that unloads it, and you get a delivery window measured in days, not weeks. Our heaviest corridors are Tampa to South Florida, Tampa to Orlando and Jacksonville, and Tampa up the I-95 corridor toward the Carolinas, Virginia and the Northeast.",
+      "We run long-distance moves differently: your shipment goes on a dedicated truck, the crew that loads it is the crew that unloads it, and you get a delivery window measured in days, not weeks. Our heaviest corridors are Miami to Orlando and Tampa, Miami to Jacksonville, and Miami straight up the I-95 corridor toward the Carolinas, Virginia and the Northeast.",
     ],
     includes: [
       {
@@ -286,10 +286,10 @@ export const services: Service[] = [
       },
     ],
     facts: [
-      { label: "Tampa → Miami / Fort Lauderdale", value: "Next-day delivery" },
-      { label: "Tampa → Orlando / Jacksonville", value: "Next-day delivery" },
-      { label: "Tampa → Atlanta / Carolinas", value: "1–3 days" },
-      { label: "Tampa → Northeast corridor", value: "2–5 days" },
+      { label: "Miami → Orlando", value: "Next-day delivery" },
+      { label: "Miami → Jacksonville", value: "Next-day delivery" },
+      { label: "Miami → Atlanta / Carolinas", value: "1–3 days" },
+      { label: "Miami → Northeast corridor", value: "2–5 days" },
       { label: "Transport type", value: "Dedicated truck, no consolidation" },
       { label: "Pricing model", value: "Flat rate based on inventory and distance" },
     ],
@@ -301,7 +301,7 @@ export const services: Service[] = [
     ],
     faqs: [
       {
-        q: "How long does a long-distance move from Tampa actually take?",
+        q: "How long does a long-distance move from Miami actually take?",
         a: "Anywhere in Florida is next-day. Atlanta and the Carolinas run one to three days. The Northeast corridor is two to five. Because we do not consolidate shipments, these are real transit times rather than the multi-week delivery spread most national van lines quote.",
       },
       {
@@ -320,11 +320,11 @@ export const services: Service[] = [
     slug: "packing-services",
     name: "Packing & Unpacking",
     navLabel: "Packing & Unpacking",
-    metaTitle: "Professional Packing Services in Tampa",
+    metaTitle: "Professional Packing Services in Miami",
     metaDescription:
-      "Professional packers in Tampa Bay. Full-home packing, partial and fragile-only packing, custom crating and unpacking. Materials included. Call (305) 697-8717.",
+      "Professional packers in Miami. Full-home, partial and fragile-only packing, custom crating and unpacking. Materials included. Call (305) 697-8717.",
     summary:
-      "Professional packing in Tampa Bay — full-home, partial or fragile-only — using materials sized to each item, plus unpacking and debris removal at the destination.",
+      "Professional packing in South Florida — full-home, partial or fragile-only — using materials sized to each item, plus unpacking and debris removal at the destination.",
     tagline: "The part everyone underestimates",
     icon: "box",
     intro: [
@@ -414,16 +414,16 @@ export const services: Service[] = [
     slug: "storage-solutions",
     name: "Storage Solutions",
     navLabel: "Storage",
-    metaTitle: "Moving & Storage in Tampa, FL",
+    metaTitle: "Moving & Storage in Miami, FL",
     metaDescription:
-      "Climate-controlled short and long-term storage in Tampa Bay, with pickup and redelivery by the same crew. Ideal for closing-date gaps. Call (305) 697-8717.",
+      "Climate-controlled short and long-term storage in South Florida, with pickup and redelivery by the same crew. Ideal for closing-date gaps. Call (305) 697-8717.",
     summary:
-      "Clean, climate-controlled storage in the Tampa area for gaps between closing dates, with the same crew handling pickup, storage and redelivery.",
+      "Clean, climate-controlled storage in the Miami area for gaps between closing dates, with the same crew handling pickup, storage and redelivery.",
     tagline: "For when the dates do not line up",
     icon: "warehouse",
     intro: [
       "Closing dates rarely cooperate. You sell on the 15th and close on the 30th, the build-out runs two weeks long, or the lease ends before the new place is ready. Storage bridges that gap without you renting a unit, renting a truck and handling your furniture twice.",
-      "In Florida, climate control is not a luxury item. Tampa summers put storage units well past 100°F with brutal humidity — enough to warp solid wood, delaminate veneer, cloud electronics and grow mould on upholstery. Everything we store is in a climate-controlled, monitored facility.",
+      "In Florida, climate control is not a luxury item. Miami summers put storage units well past 100°F with brutal humidity — enough to warp solid wood, delaminate veneer, cloud electronics and grow mould on upholstery. Everything we store is in a climate-controlled, monitored facility.",
     ],
     includes: [
       {
@@ -485,8 +485,8 @@ export const services: Service[] = [
     ],
     faqs: [
       {
-        q: "Do I really need climate-controlled storage in Tampa?",
-        a: "For furniture, yes. A non-climate-controlled unit in a Tampa summer regularly exceeds 100°F with high humidity. That is enough to warp solid wood, separate veneer, damage electronics and grow mould on upholstery. Climate control is standard on everything we store for exactly this reason.",
+        q: "Do I really need climate-controlled storage in Miami?",
+        a: "For furniture, yes. A non-climate-controlled unit in a Miami summer regularly exceeds 100°F with high humidity. That is enough to warp solid wood, separate veneer, damage electronics and grow mould on upholstery. Climate control is standard on everything we store for exactly this reason.",
       },
       {
         q: "Can I get something out of storage before the full delivery?",
@@ -504,11 +504,11 @@ export const services: Service[] = [
     slug: "labor-only-moving",
     name: "Labor-Only Moving Help",
     navLabel: "Labor-Only Help",
-    metaTitle: "Labor-Only Movers in Tampa, FL",
+    metaTitle: "Labor-Only Movers in Miami, FL",
     metaDescription:
-      "Hourly labor-only movers in Tampa Bay. Load or unload your rental truck or container. Two-hour minimum. Call (305) 697-8717.",
+      "Hourly labor-only movers in South Florida. Load or unload your rental truck or container. Two-hour minimum. Call (305) 697-8717.",
     summary:
-      "Hourly moving muscle in Tampa Bay for loading and unloading rental trucks and containers, or rearranging heavy furniture — you supply the truck, we supply the crew.",
+      "Hourly moving muscle in South Florida for loading and unloading rental trucks and containers, or rearranging heavy furniture — you supply the truck, we supply the crew.",
     tagline: "You bring the truck, we bring the crew",
     icon: "muscle",
     intro: [
@@ -594,9 +594,9 @@ export const services: Service[] = [
     slug: "specialty-item-moving",
     name: "Specialty & Heavy Item Moving",
     navLabel: "Specialty Items",
-    metaTitle: "Piano, Safe & Specialty Movers in Tampa",
+    metaTitle: "Piano, Safe & Specialty Movers in Miami",
     metaDescription:
-      "Specialty movers in Tampa Bay for pianos, gun safes, pool tables, artwork, antiques and oversized glass. Right equipment, right crew. Call (305) 697-8717.",
+      "Specialty movers in South Florida for pianos, gun safes, pool tables, artwork, antiques and oversized glass. Right equipment, right crew. Call (305) 697-8717.",
     summary:
       "Movers for the items a standard crew should not attempt — pianos, safes, pool tables, fine art and antiques — using purpose-built equipment and trained technique.",
     tagline: "The pieces that need specialists, not just strength",
@@ -670,7 +670,7 @@ export const services: Service[] = [
     ],
     faqs: [
       {
-        q: "How much does it cost to move a piano in Tampa?",
+        q: "How much does it cost to move a piano in Miami?",
         a: "Price depends on the instrument and the path, not just the piano. An upright moved ground-floor to ground-floor is at the low end; a grand coming down a flight of stairs and into a second-floor condo is at the high end. Tell us the type, the stair count at both ends and the doorway widths, and we will quote it accurately.",
       },
       {
@@ -689,16 +689,16 @@ export const services: Service[] = [
     slug: "apartment-condo-moving",
     name: "Apartment & Condo Moving",
     navLabel: "Apartment & Condo",
-    metaTitle: "Apartment & Condo Movers in Tampa",
+    metaTitle: "Apartment & Condo Movers in Miami",
     metaDescription:
-      "Apartment and high-rise condo movers in Tampa. Elevator reservations, COIs, tight stairwells and strict move-in windows handled. Call (305) 697-8717.",
+      "Apartment and high-rise condo movers in Miami. Elevator reservations, COIs, tight stairwells and strict move-in windows handled. Call (305) 697-8717.",
     summary:
-      "Apartment, condo and high-rise moves in Tampa Bay, including building paperwork, elevator reservations and the narrow move-in windows HOAs enforce.",
+      "Apartment, condo and high-rise moves in South Florida, including building paperwork, elevator reservations and the narrow move-in windows HOAs enforce.",
     tagline: "Built for buildings with rules",
     icon: "elevator",
     intro: [
       "Apartment and condo moves are rarely difficult because of the furniture. They are difficult because of the building: a four-hour elevator reservation, a COI the management office needs 72 hours in advance, a loading zone two hundred feet from the door, and an HOA that does not allow moves on Sundays.",
-      "We move into and out of towers across downtown Tampa, Channelside, Harbour Island, Westshore and the St. Pete waterfront constantly. We know what those buildings require, and we handle the paperwork side rather than leaving you to discover a requirement on move-in morning.",
+      "We move into and out of towers across downtown Miami, Edgewater, Harbour Island, Brickell and the Fort Lauderdale waterfront constantly. We know what those buildings require, and we handle the paperwork side rather than leaving you to discover a requirement on move-in morning.",
     ],
     includes: [
       {
@@ -757,15 +757,15 @@ export const services: Service[] = [
       { label: "Long carry", value: "Assessed and quoted up front" },
     ],
     bestFor: [
-      "Downtown Tampa, Channelside and Harbour Island high-rises",
-      "Westshore and South Tampa apartment communities",
-      "St. Petersburg and Clearwater waterfront condos",
+      "Downtown Miami, Edgewater and Harbour Island high-rises",
+      "Brickell and Coral Gables apartment communities",
+      "Fort Lauderdale and Hollywood waterfront condos",
       "Walk-ups, student housing and first apartments",
     ],
     faqs: [
       {
         q: "Do you provide a certificate of insurance for my building?",
-        a: "Yes, at no charge. Send us your building's COI requirements when you book — most Tampa high-rises and HOAs want them 48 to 72 hours ahead, and a missing COI is the single most common reason a move gets turned away at the door.",
+        a: "Yes, at no charge. Send us your building's COI requirements when you book — most Miami high-rises and HOAs want them 48 to 72 hours ahead, and a missing COI is the single most common reason a move gets turned away at the door.",
       },
       {
         q: "What if my building only allows a four-hour move window?",
@@ -783,11 +783,11 @@ export const services: Service[] = [
     slug: "senior-moving",
     name: "Senior & Downsizing Moves",
     navLabel: "Senior & Downsizing",
-    metaTitle: "Senior Moving Services in Tampa, FL",
+    metaTitle: "Senior Moving Services in Miami, FL",
     metaDescription:
-      "Patient, respectful senior moving and downsizing in Tampa Bay. Retirement community and assisted-living transitions, sorting help and unpacking. (305) 697-8717.",
+      "Patient, respectful senior moving and downsizing in Miami. Retirement and assisted-living transitions, sorting help and unpacking. Call (305) 697-8717.",
     summary:
-      "Senior relocations and downsizing in Tampa Bay, handled at an unhurried pace with help sorting, donating and setting up the new home so it is livable the first night.",
+      "Senior relocations and downsizing in South Florida, handled at an unhurried pace with help sorting, donating and setting up the new home so it is livable the first night.",
     tagline: "Unhurried, respectful, fully set up",
     icon: "heart",
     intro: [
@@ -805,7 +805,7 @@ export const services: Service[] = [
       },
       {
         title: "Donation and disposal",
-        body: "Donated items delivered to local Tampa Bay charities with receipts provided, and unwanted items removed responsibly.",
+        body: "Donated items delivered to local South Florida charities with receipts provided, and unwanted items removed responsibly.",
       },
       {
         title: "Community coordination",
@@ -852,7 +852,7 @@ export const services: Service[] = [
     ],
     bestFor: [
       "Downsizing from a long-time family home",
-      "Moves into Tampa Bay retirement and 55+ communities",
+      "Moves into South Florida retirement and 55+ communities",
       "Assisted living and independent living transitions",
       "Adult children coordinating a parent's move from out of state",
     ],
@@ -862,7 +862,7 @@ export const services: Service[] = [
         a: "Yes. We work from the new floor plan to establish what will actually fit, then go room by room at your pace. Starting from the space rather than from sentiment makes the decisions much easier, and there is no pressure to finish in one session.",
       },
       {
-        q: "Do you work with Tampa retirement and assisted living communities?",
+        q: "Do you work with Miami retirement and assisted living communities?",
         a: "Regularly. Most have specific move-in windows, entrance requirements and insurance paperwork. We coordinate directly with the community's office so the family does not have to project-manage it.",
       },
       {
@@ -877,11 +877,11 @@ export const services: Service[] = [
     slug: "last-minute-moving",
     name: "Same-Day & Last-Minute Moving",
     navLabel: "Last-Minute Moves",
-    metaTitle: "Same-Day & Last-Minute Movers in Tampa",
+    metaTitle: "Same-Day & Last-Minute Movers in Miami",
     metaDescription:
-      "Same-day and next-day movers in Tampa Bay for cancelled movers, urgent lease-ends and emergency relocations. Call (305) 697-8717 to check today's availability.",
+      "Same-day and next-day movers in Miami for cancelled movers, urgent lease-ends and emergency relocations. Call (305) 697-8717 to check availability.",
     summary:
-      "Emergency, same-day and next-day moving in Tampa Bay for cancelled bookings, sudden lease-ends and urgent relocations — subject to crew availability that day.",
+      "Emergency, same-day and next-day moving in South Florida for cancelled bookings, sudden lease-ends and urgent relocations — subject to crew availability that day.",
     tagline: "When the plan fell through this morning",
     icon: "clock",
     intro: [

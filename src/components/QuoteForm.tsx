@@ -117,7 +117,7 @@ export default function QuoteForm() {
 
       <Fieldset legend="Where you're moving" step={2}>
         <div className="grid gap-5 sm:grid-cols-2">
-          <Field label="Moving from" name="origin" required placeholder="City or ZIP — e.g. Tampa 33606" />
+          <Field label="Moving from" name="origin" required placeholder="City or ZIP — e.g. Miami 33606" />
           <Field label="Moving to" name="destination" required placeholder="City or ZIP — e.g. Brandon 33511" />
         </div>
         <div className="grid gap-5 sm:grid-cols-2">

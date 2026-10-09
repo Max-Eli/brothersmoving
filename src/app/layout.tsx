@@ -17,7 +17,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `${site.name} | Movers in Tampa, FL`,
+    default: `${site.name} | Movers in Miami, FL`,
     template: `%s | ${site.shortName}`,
   },
   description: site.metaDescription,
@@ -26,16 +26,16 @@ export const metadata: Metadata = {
   creator: site.name,
   publisher: site.legalName,
   keywords: [
-    "movers Tampa",
-    "moving company Tampa FL",
-    "Tampa movers",
-    "local movers Tampa Bay",
-    "long distance movers Tampa",
-    "residential movers Tampa",
-    "commercial movers Tampa",
-    "packing services Tampa",
-    "moving and storage Tampa",
-    "piano movers Tampa",
+    "movers Miami",
+    "moving company Miami FL",
+    "Miami movers",
+    "local movers South Florida",
+    "long distance movers Miami",
+    "residential movers Miami",
+    "commercial movers Miami",
+    "packing services Miami",
+    "moving and storage Miami",
+    "piano movers Miami",
   ],
   alternates: { canonical: "/" },
   openGraph: {
@@ -43,12 +43,12 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: site.url,
     siteName: site.name,
-    title: `${site.name} | Movers in Tampa, FL`,
+    title: `${site.name} | Movers in Miami, FL`,
     description: site.metaDescription,
   },
   twitter: {
     card: "summary_large_image",
-    title: `${site.name} | Movers in Tampa, FL`,
+    title: `${site.name} | Movers in Miami, FL`,
     description: site.metaDescription,
   },
   robots: {
@@ -82,7 +82,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <JsonLd data={graph(organizationSchema(), websiteSchema())} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <meta name="geo.region" content="US-FL" />
-        <meta name="geo.placename" content="Tampa, Florida" />
+        <meta name="geo.placename" content="Miami, Florida" />
         <meta name="geo.position" content={`${site.base.latitude};${site.base.longitude}`} />
         <meta name="ICBM" content={`${site.base.latitude}, ${site.base.longitude}`} />
       </head>

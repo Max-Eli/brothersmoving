@@ -13,8 +13,8 @@ export const faqCategories: FaqCategory[] = [
 export const faqs: Faq[] = [
   {
     category: "Pricing & Quotes",
-    q: "How much do movers cost in Tampa?",
-    a: "Most local Tampa moves fall between $450 and $700 for a one-bedroom apartment, $800 and $1,400 for a two-bedroom, and $1,500 and $2,800 for a three-bedroom house. The largest variables are stairs, the distance from the truck to your door, and how much packing you need. We quote a flat rate after a walkthrough so the number does not change on moving day.",
+    q: "How much do movers cost in Miami?",
+    a: "Most local Miami moves fall between $450 and $700 for a one-bedroom apartment, $800 and $1,400 for a two-bedroom, and $1,500 and $2,800 for a three-bedroom house. The largest variables are stairs, the distance from the truck to your door, and how much packing you need. We quote a flat rate after a walkthrough so the number does not change on moving day.",
   },
   {
     category: "Pricing & Quotes",
@@ -39,7 +39,7 @@ export const faqs: Faq[] = [
   {
     category: "Booking & Scheduling",
     q: "How far in advance should I book my move?",
-    a: "Two to three weeks is comfortable for most dates. Book four to six weeks ahead for the last weekend of the month, the first few days of any month, and anything between May and August — those slots fill first across every Tampa Bay mover. For same-day or next-day needs, call us directly and we will check availability immediately.",
+    a: "Two to three weeks is comfortable for most dates. Book four to six weeks ahead for the last weekend of the month, the first few days of any month, and anything between May and August — those slots fill first across every Miami-area mover. For same-day or next-day needs, call us directly and we will check availability immediately.",
   },
   {
     category: "Booking & Scheduling",
@@ -114,17 +114,17 @@ export const faqs: Faq[] = [
   {
     category: "Service Area",
     q: "What areas do you serve?",
-    a: "The entire Tampa Bay region — Tampa, St. Petersburg, Clearwater, Brandon, Riverview, Wesley Chapel, Lutz, Temple Terrace, Plant City, Largo, Palm Harbor, Land O' Lakes, Apollo Beach, Valrico and Lakeland, covering Hillsborough, Pinellas, Pasco and Polk counties. We also handle long-distance moves out of Tampa Bay to anywhere in Florida and up the East Coast.",
+    a: "The Miami metro — Miami, Miami Beach, North Miami Beach, Aventura, Sunny Isles Beach, Brickell, Coral Gables, Coconut Grove, Doral, Hialeah, Kendall, Key Biscayne, Pinecrest, Fort Lauderdale, Hollywood, Pembroke Pines, Miramar and Weston, covering Miami-Dade and Broward counties. We also handle long-distance moves out of South Florida to anywhere in Florida and up the East Coast.",
   },
   {
     category: "Service Area",
     q: "Do you charge a travel fee for outlying areas?",
-    a: "No travel surcharge anywhere inside our standard service area, which covers Hillsborough, Pinellas, Pasco and Polk counties. For the further edges — Palm Harbor, Lakeland, Plant City — we simply schedule an early arrival so the drive happens before your working day starts.",
+    a: "No travel surcharge anywhere inside our standard service area, which covers Miami-Dade and Broward counties. For the further edges — Kendall, Pinecrest, Weston — we simply schedule an early arrival so the drive happens before your working day starts.",
   },
   {
     category: "Service Area",
     q: "Do you do long-distance moves out of Florida?",
-    a: "Yes. Our heaviest corridors run from Tampa up the East Coast toward Georgia, the Carolinas, Virginia and the Northeast. Your shipment travels on a dedicated truck with a guaranteed delivery window and the same crew loading and unloading — no consolidation, no carrier transfers.",
+    a: "Yes. Our heaviest corridors run from Miami up the East Coast toward Georgia, the Carolinas, Virginia and the Northeast. Your shipment travels on a dedicated truck with a guaranteed delivery window and the same crew loading and unloading — no consolidation, no carrier transfers.",
   },
 ];
 

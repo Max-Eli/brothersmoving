@@ -7,7 +7,7 @@ import { Icon } from "@/components/Icons";
 import Reveal from "@/components/Reveal";
 import { Button, CTABand, JsonLd, PageHero, Section, SectionHeading } from "@/components/ui";
 
-const DESCRIPTION = `Contact ${site.name} — call ${site.phoneDisplay} or email ${site.email}. Open seven days a week across the Tampa Bay area.`;
+const DESCRIPTION = `Contact ${site.name} — call ${site.phoneDisplay} or email ${site.email}. Open seven days a week across the South Florida area.`;
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -30,7 +30,7 @@ export default function ContactPage() {
             path: "/contact",
             name: `Contact ${site.name}`,
             description: DESCRIPTION,
-            primaryAnswer: `${site.name} can be reached by phone at ${site.phoneDisplay} or by email at ${site.email}. The company operates seven days a week across the Tampa Bay area from a corporate office at ${site.hq.street}, ${site.hq.city}, ${site.hq.region} ${site.hq.postalCode}.`,
+            primaryAnswer: `${site.name} can be reached by phone at ${site.phoneDisplay} or by email at ${site.email}. The company operates seven days a week across the South Florida area from a corporate office at ${site.hq.street}, ${site.hq.city}, ${site.hq.region} ${site.hq.postalCode}.`,
           }),
           breadcrumbSchema(TRAIL),
         )}
@@ -113,7 +113,7 @@ export default function ContactPage() {
             <div className="mt-8 space-y-6">
               <div>
                 <h3 className="text-[13px] font-bold uppercase tracking-[0.12em] text-navy-500">
-                  Corporate office
+                  Our location
                 </h3>
                 <address className="mt-2 text-[16px] not-italic leading-relaxed text-navy-800">
                   {site.legalName}
@@ -123,8 +123,8 @@ export default function ContactPage() {
                   {site.hq.city}, {site.hq.region} {site.hq.postalCode}
                 </address>
                 <p className="mt-2 text-[14px] leading-relaxed text-navy-500">
-                  This is our registered office, not a walk-in storefront. Crews dispatch to jobs
-                  across the Tampa Bay service area — please call before visiting.
+                  We dispatch from here across Miami-Dade and Broward. Crews are out on jobs most of
+                  the day, so please call before visiting.
                 </p>
               </div>
 
@@ -133,8 +133,8 @@ export default function ContactPage() {
                   Service area
                 </h3>
                 <p className="mt-2 text-[16px] leading-relaxed text-navy-800">
-                  The entire Tampa Bay region — Hillsborough, Pinellas, Pasco and Polk counties —
-                  plus long-distance moves out of Tampa Bay to anywhere in Florida and up the East
+                  The entire South Florida region — Miami-Dade and Broward counties —
+                  plus long-distance moves out of South Florida to anywhere in Florida and up the East
                   Coast.
                 </p>
                 <Link

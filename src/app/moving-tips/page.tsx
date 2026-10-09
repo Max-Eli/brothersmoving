@@ -7,7 +7,7 @@ import Reveal from "@/components/Reveal";
 import { Button, Card, CTABand, JsonLd, PageHero, Section } from "@/components/ui";
 
 const DESCRIPTION =
-  "Practical moving guides from a Tampa moving company: what movers cost, an 8-week checklist, packing fragile items and spotting a moving scam.";
+  "Practical moving guides from a Miami moving company: what movers cost, an 8-week checklist, packing fragile items and spotting a moving scam.";
 
 export const metadata: Metadata = {
   title: "Moving Tips & Guides",

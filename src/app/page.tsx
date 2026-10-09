@@ -21,7 +21,7 @@ import {
 } from "@/components/ui";
 
 export const metadata: Metadata = {
-  title: `Movers in Tampa, FL | ${site.shortName}`,
+  title: `Movers in Miami, FL | ${site.shortName}`,
   description: site.metaDescription,
   alternates: { canonical: "/" },
 };
@@ -35,7 +35,7 @@ const DIFFERENTIATORS = [
   {
     icon: "shield" as const,
     title: "Licensed, insured, and happy to prove it",
-    body: "Full cargo and general liability coverage on every job, and a certificate of insurance issued for your building or HOA the same day you ask. Most Tampa high-rises require one and will turn a crew away without it.",
+    body: "Full cargo and general liability coverage on every job, and a certificate of insurance issued for your building or HOA the same day you ask. Most Miami high-rises require one and will turn a crew away without it.",
   },
   {
     icon: "users" as const,
@@ -96,10 +96,10 @@ export default function HomePage() {
         data={graph(
           webPageSchema({
             path: "/",
-            name: `${site.name} | Movers in Tampa, FL`,
+            name: `${site.name} | Movers in Miami, FL`,
             description: site.description,
             primaryAnswer:
-              "EZ Movers and Storage is a licensed and insured moving company serving the Tampa Bay area with local moves, long-distance moves, packing, storage and labor-only help, priced as a flat rate quoted before moving day.",
+              "EZ Movers and Storage is a licensed and insured moving company serving the South Florida area with local moves, long-distance moves, packing, storage and labor-only help, priced as a flat rate quoted before moving day.",
           }),
           breadcrumbSchema([{ name: "Home", href: "/" }]),
           faqSchema(homeFaqs),
@@ -114,7 +114,7 @@ export default function HomePage() {
         <Reveal>
           <SectionHeading
             eyebrow="What we do"
-            title="Moving services for every kind of move in Tampa Bay"
+            title="Moving services for every kind of move in South Florida"
             lede="Ten services covering everything from a studio apartment across town to a full household relocation up the East Coast — plus the specialist work most crews should not attempt."
           />
         </Reveal>
@@ -178,7 +178,7 @@ export default function HomePage() {
                 invoice matched the quote exactly.&rdquo;
               </p>
               <p className="mt-3 text-[14px] font-semibold text-navy-600">
-                Danielle R. — South Tampa
+                Danielle R. — South Miami
               </p>
             </div>
             <div className="mt-6">
@@ -256,11 +256,11 @@ export default function HomePage() {
           <Reveal>
             <SectionHeading
               eyebrow="Straight answers on price"
-              title="What a move actually costs in Tampa"
-              lede="Real 2026 ranges for a local move inside Tampa Bay, with boxes packed by you. Your written quote is based on a walkthrough, not on this table — but nobody should have to call three companies just to find out the order of magnitude."
+              title="What a move actually costs in Miami"
+              lede="Real 2026 ranges for a local move inside South Florida, with boxes packed by you. Your written quote is based on a walkthrough, not on this table — but nobody should have to call three companies just to find out the order of magnitude."
             />
             <div className="mt-8">
-              <Button href="/moving-tips/how-much-do-movers-cost-in-tampa" variant="ghost">
+              <Button href="/moving-tips/how-much-do-movers-cost-in-miami" variant="ghost">
                 Read the full pricing breakdown
                 <Icon.arrow className="size-4" />
               </Button>
@@ -271,7 +271,7 @@ export default function HomePage() {
             <div className="min-w-0 overflow-x-auto rounded-2xl border border-navy-200 shadow-card">
               <table className="w-full text-left">
                 <caption className="sr-only">
-                  Typical local moving costs in Tampa by home size, 2026
+                  Typical local moving costs in Miami by home size, 2026
                 </caption>
                 <thead className="bg-navy-900 text-white">
                   <tr>
@@ -321,8 +321,8 @@ export default function HomePage() {
         <Reveal>
           <SectionHeading
             eyebrow="Where we work"
-            title="Serving all of Tampa Bay"
-            lede="Hillsborough, Pinellas, Pasco and Polk counties, with no travel surcharge anywhere inside our standard service area."
+            title="Serving all of South Florida"
+            lede="Miami-Dade and Broward counties, with no travel surcharge anywhere inside our standard service area."
           />
         </Reveal>
 
@@ -382,7 +382,7 @@ export default function HomePage() {
           <div className="flex flex-wrap items-end justify-between gap-6">
             <SectionHeading
               eyebrow="Customer reviews"
-              title="What Tampa Bay customers say"
+              title="What South Florida customers say"
               lede={`${site.stats.averageRating} out of 5 across ${site.stats.reviewCount} reviews, from ${site.stats.movesCompleted} moves since ${site.founded}.`}
             />
             <Button href="/reviews" variant="ghost">
@@ -514,14 +514,15 @@ function Hero() {
           </div>
 
           <h1 className="mt-6 text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-[3.5rem]">
-            Tampa movers who quote a price
+            Miami movers who quote a price
             <span className="text-amber-brand-400"> and then charge it</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-navy-300">
-            EZ Movers and Storage is a licensed and insured moving company serving Tampa, St. Petersburg,
-            Clearwater and the whole Tampa Bay area. Local moves, long-distance moves, packing and
-            storage — with a written flat rate agreed before moving day and no fees added at the end.
+            EZ Movers and Storage is a licensed and insured moving company serving Miami, Miami
+            Beach, Aventura, Fort Lauderdale and the whole South Florida area. Local moves,
+            long-distance moves, packing and storage — with a written flat rate agreed before moving
+            day and no fees added at the end.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -603,7 +604,7 @@ function Hero() {
 
 function StatsBar() {
   const stats = [
-    { value: site.stats.yearsInBusiness, label: "Years moving Tampa Bay" },
+    { value: site.stats.yearsInBusiness, label: "Years moving South Florida" },
     { value: site.stats.movesCompleted, label: "Moves completed" },
     { value: site.stats.averageRating, label: "Average customer rating" },
     { value: site.stats.onTimeRate, label: "Arrive within the window" },

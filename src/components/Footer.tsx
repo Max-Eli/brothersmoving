@@ -58,8 +58,8 @@ export default function Footer() {
             </div>
 
             <p className="mt-5 max-w-sm text-[14px] leading-relaxed">
-              A licensed and insured moving company serving Tampa, St. Petersburg, Clearwater and the
-              wider Tampa Bay area. Local moves, long-distance moves, packing and storage — quoted up
+              A licensed and insured moving company serving Miami, Miami Beach, Fort Lauderdale and the
+              wider South Florida area. Local moves, long-distance moves, packing and storage — quoted up
               front, with no fees added on moving day.
             </p>
 
@@ -79,7 +79,7 @@ export default function Footer() {
                   <br />
                   {site.hq.city}, {site.hq.region} {site.hq.postalCode}
                   <span className="mt-1 block text-[13px] text-navy-400">
-                    Corporate office · Tampa Bay service area
+                    Miami-Dade &amp; Broward service area
                   </span>
                 </span>
               </span>
@@ -131,7 +131,7 @@ export default function Footer() {
               <FooterCol title="Moving Resources">
                 {posts.slice(0, 4).map((p) => (
                   <FooterLink key={p.slug} href={`/moving-tips/${p.slug}`}>
-                    {p.category === "Pricing" ? "Tampa moving costs" : shortTitle(p.title)}
+                    {p.category === "Pricing" ? "Miami moving costs" : shortTitle(p.title)}
                   </FooterLink>
                 ))}
                 <FooterLink href="/moving-tips" emphasis>
@@ -151,7 +151,7 @@ export default function Footer() {
             A written price agreed before moving day, based on a free walkthrough.
           </TrustItem>
           <TrustItem icon="star" title={`${site.stats.averageRating} average rating`}>
-            {site.stats.movesCompleted} moves completed across Tampa Bay since {site.founded}.
+            {site.stats.movesCompleted} moves completed across South Florida since {site.founded}.
           </TrustItem>
         </div>
       </div>

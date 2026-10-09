@@ -9,7 +9,7 @@ import FAQAccordion from "@/components/FAQAccordion";
 import { Button, CTABand, JsonLd, PageHero, Section } from "@/components/ui";
 
 const DESCRIPTION =
-  "Answers on what movers cost, flat-rate pricing, what we won't move, insurance and claims, packing, scheduling and our Tampa Bay service area.";
+  "Answers on what movers cost, flat-rate pricing, what we won't move, insurance and claims, packing, scheduling and our South Florida service area.";
 
 export const metadata: Metadata = {
   title: "Frequently Asked Questions",
@@ -112,7 +112,7 @@ export default function FAQPage() {
               Still comparing movers?
             </h2>
             <p className="mt-4 text-[17px] leading-relaxed text-navy-600">
-              Our guides cover what a Tampa move actually costs, how to spot a moving scam, and the
+              Our guides cover what a Miami move actually costs, how to spot a moving scam, and the
               questions worth asking any company before you hand over a deposit — including the ones
               that are not in our commercial interest to tell you.
             </p>

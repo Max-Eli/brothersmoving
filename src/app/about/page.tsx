@@ -16,7 +16,7 @@ import {
   SectionHeading,
 } from "@/components/ui";
 
-const DESCRIPTION = `About ${site.shortName} — a licensed, insured Tampa Bay moving company operating since ${site.founded}, built on flat-rate pricing and trained crews.`;
+const DESCRIPTION = `About ${site.shortName} — a licensed, insured South Florida moving company operating since ${site.founded}, built on flat-rate pricing and trained crews.`;
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -62,7 +62,7 @@ export default function AboutPage() {
             path: "/about",
             name: `About ${site.name}`,
             description: DESCRIPTION,
-            primaryAnswer: `${site.name} is a licensed and insured moving company founded in ${site.founded}, serving the Tampa Bay area with flat-rate local, long-distance, packing and storage services using trained in-house crews.`,
+            primaryAnswer: `${site.name} is a licensed and insured moving company founded in ${site.founded}, serving the South Florida area with flat-rate local, long-distance, packing and storage services using trained in-house crews.`,
           }),
           breadcrumbSchema(TRAIL),
         )}
@@ -103,7 +103,7 @@ export default function AboutPage() {
                     was the right trade.
                   </p>
                   <p>
-                    Today we run a full schedule across Hillsborough, Pinellas, Pasco and Polk
+                    Today we run a full schedule across Miami-Dade and Broward
                     counties, with {site.stats.movesCompleted} moves completed. Most of our work
                     still comes from referrals, which is the outcome the model was designed to
                     produce.
@@ -114,15 +114,15 @@ export default function AboutPage() {
 
             <Reveal>
               <div className="mt-12">
-                <SectionHeading eyebrow="Tampa Bay, specifically" title="Why local knowledge matters" />
+                <SectionHeading eyebrow="South Florida, specifically" title="Why local knowledge matters" />
                 <div className="mt-8">
                   <Prose>
                     <p>
-                      Moving in Tampa Bay is not generic. Hyde Park has brick streets with oak
-                      canopies a box truck cannot clear. Downtown towers want a certificate of
-                      insurance 72 hours ahead and will turn a crew away without one. Wesley Chapel
-                      closings slip because the builder is late, and if storage was not part of the
-                      plan you have a truck and nowhere to put it.
+                      Moving in South Florida is not generic. Coconut Grove has narrow lanes under
+                      a canopy a box truck cannot clear. Brickell towers want a certificate of
+                      insurance naming three entities, 72 hours ahead, and will turn a crew away
+                      without one. Aventura associations forbid weekend moves outright. Miami Beach
+                      regulates where a truck may legally stand.
                     </p>
                     <p>
                       And for half the year, hurricane season is a live variable. Standard moving

@@ -16,7 +16,7 @@ export type Review = {
 export const reviews: Review[] = [
   {
     name: "Danielle R.",
-    location: "South Tampa",
+    location: "Coral Gables",
     rating: 5,
     date: "2026-07-18",
     service: "Residential Moving",
@@ -25,7 +25,7 @@ export const reviews: Review[] = [
   },
   {
     name: "Marcus T.",
-    location: "Channelside, Tampa",
+    location: "Brickell, Miami",
     rating: 5,
     date: "2026-06-30",
     service: "Apartment & Condo Moving",
@@ -34,16 +34,16 @@ export const reviews: Review[] = [
   },
   {
     name: "Priya S.",
-    location: "Wesley Chapel",
+    location: "Doral",
     rating: 5,
     date: "2026-08-09",
     service: "Storage Solutions",
     title: "Our closing slipped twelve days and they absorbed it",
-    body: "New construction, so of course the certificate of occupancy was late. Everything went into climate-controlled storage instead, and they redelivered the day after we got the keys. No rebooking drama, no change fee. They had warned us this happens in Wesley Chapel and priced the contingency in from the start.",
+    body: "New construction, so of course the certificate of occupancy was late. Everything went into climate-controlled storage instead, and they redelivered the day after we got the keys. No rebooking drama, no change fee. They had warned us this happens in Doral and priced the contingency in from the start.",
   },
   {
     name: "Robert & Jean W.",
-    location: "Carrollwood",
+    location: "Miami Lakes",
     rating: 5,
     date: "2026-05-22",
     service: "Senior & Downsizing",
@@ -52,7 +52,7 @@ export const reviews: Review[] = [
   },
   {
     name: "Anthony C.",
-    location: "Westshore, Tampa",
+    location: "Brickell, Miami",
     rating: 5,
     date: "2026-04-11",
     service: "Commercial & Office Moving",
@@ -61,16 +61,16 @@ export const reviews: Review[] = [
   },
   {
     name: "Karen M.",
-    location: "Clearwater",
+    location: "Hollywood",
     rating: 5,
     date: "2026-03-02",
     service: "Long-Distance Moving",
     title: "A real delivery date, not a two-week window",
-    body: "The national carrier I called first quoted a fourteen-day delivery spread, which made it impossible to book time off. EZ Movers and Storage gave me a firm window, put everything on a dedicated truck, and the same crew that loaded in Clearwater unloaded in Charlotte two days later. The driver called me every day he was on the road.",
+    body: "The national carrier I called first quoted a fourteen-day delivery spread, which made it impossible to book time off. EZ Movers and Storage gave me a firm window, put everything on a dedicated truck, and the same crew that loaded in Hollywood unloaded in Charlotte two days later. The driver called me every day he was on the road.",
   },
   {
     name: "Luis and Ana F.",
-    location: "Brandon",
+    location: "Kendall",
     rating: 5,
     date: "2026-08-25",
     service: "Same-Day & Last-Minute",
@@ -79,7 +79,7 @@ export const reviews: Review[] = [
   },
   {
     name: "Gregory H.",
-    location: "Valrico",
+    location: "Pinecrest",
     rating: 5,
     date: "2026-02-14",
     service: "Specialty Item Moving",
@@ -88,7 +88,7 @@ export const reviews: Review[] = [
   },
   {
     name: "Stephanie N.",
-    location: "St. Petersburg",
+    location: "Fort Lauderdale",
     rating: 5,
     date: "2026-01-19",
     service: "Packing & Unpacking",
@@ -97,7 +97,7 @@ export const reviews: Review[] = [
   },
   {
     name: "Derek P.",
-    location: "Riverview",
+    location: "Miramar",
     rating: 4,
     date: "2026-09-05",
     service: "Labor-Only Moving",

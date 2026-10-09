@@ -75,7 +75,7 @@ export default async function AreaPage({ params }: Params) {
   const facts = [
     { label: "County", value: area.county },
     { label: "Population", value: area.population },
-    { label: "Travel from Tampa", value: area.driveTime },
+    { label: "Travel from Miami", value: area.driveTime },
     { label: "ZIP codes served", value: area.zips.length > 6 ? `${area.zips.length} ZIPs` : area.zips.join(", ") },
     { label: "Travel surcharge", value: "None" },
     { label: "Services available", value: "All 10" },
@@ -314,7 +314,7 @@ export default async function AreaPage({ params }: Params) {
 
         <div className="mt-10">
           <h3 className="text-[13px] font-bold uppercase tracking-[0.12em] text-navy-500">
-            Elsewhere in Tampa Bay
+            Elsewhere in South Florida
           </h3>
           <div className="mt-4 flex flex-wrap gap-2">
             {others.map((a) => (

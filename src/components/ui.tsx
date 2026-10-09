@@ -265,7 +265,7 @@ export function CTABand({
           </Button>
         </div>
         <p className="mt-6 text-[14px] text-navy-300">
-          Licensed &amp; insured · Serving all of Tampa Bay · Open 7 days
+          Licensed &amp; insured · Serving all of South Florida · Open 7 days
         </p>
       </div>
     </section>

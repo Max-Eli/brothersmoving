@@ -1,6 +1,6 @@
 # EZ Movers and Storage
 
-Marketing website for a Tampa Bay moving company. Next.js 15 (App Router), React 19, Tailwind CSS v4, TypeScript. 57 pages, statically prerendered.
+Marketing website for a South Florida moving company. Next.js 15 (App Router), React 19, Tailwind CSS v4, TypeScript. 57 pages, statically prerendered.
 
 ```bash
 npm install
@@ -23,7 +23,7 @@ These are the things that must be changed or verified. Everything else works as 
 | 4 | **Verify the company facts** | `src/lib/site.ts` | `founded`, `movesCompleted`, `onTimeRate`, `yearsInBusiness` are placeholders. |
 | 5 | **Add the USDOT / state license number** | `src/lib/site.ts` → `credentials` | Currently a generic statement. A real number is a strong trust signal and lets customers verify you. |
 | 6 | **Add social profile URLs** | `src/lib/site.ts` → `social` | Empty array. Populating it adds `sameAs` to the schema, which helps entity recognition. |
-| 7 | **Confirm the pricing table** | `src/lib/posts.ts`, `src/app/page.tsx` | Ranges are realistic for the 2026 Tampa market but should match what you actually charge. |
+| 7 | **Confirm the pricing table** | `src/lib/posts.ts`, `src/app/page.tsx` | Ranges are realistic for the 2026 Miami market but should match what you actually charge. |
 | 8 | **Add an Open Graph image** | `src/app/opengraph-image.png` | No social preview image yet — links currently share as plain text. 1200×630. |
 
 ### Where quote requests go
@@ -44,7 +44,7 @@ The payload is flat and stable — every key is always present, so Make's field 
   "name": "Jane Doe",
   "phone": "8135550142",
   "email": "jane@example.com",
-  "origin": "Tampa 33606",
+  "origin": "Miami 33606",
   "destination": "Brandon 33511",
   "moveDate": "2026-10-15",
   "homeSize": "3-bedroom",
@@ -52,7 +52,7 @@ The payload is flat and stable — every key is always present, so Make's field 
   "extras": ["Packing services", "Storage between dates"],
   "extrasText": "Packing services, Storage between dates",
   "details": "Third floor walk-up at the old place. One upright piano.",
-  "summary": "Quote request — Jane Doe (Tampa 33606 → Brandon 33511)",
+  "summary": "Quote request — Jane Doe (Miami 33606 → Brandon 33511)",
   "submittedAt": "2026-09-23T01:50:55.949Z",
   "source": "brothersezmove.com",
   "sourcePage": "https://brothersezmove.com/quote"
@@ -95,7 +95,7 @@ All content lives in typed data modules. Pages are templates that render them, s
 |------|----------|
 | `src/lib/site.ts` | Business identity, NAP, hours, stats. **Single source of truth** — every page and every schema block reads from here. |
 | `src/lib/services.ts` | 10 services, each with copy, inclusions, process, fact table and FAQs |
-| `src/lib/areas.ts` | 20 Tampa Bay cities with local operational detail, ZIPs and FAQs |
+| `src/lib/areas.ts` | 20 South Florida cities with local operational detail, ZIPs and FAQs |
 | `src/lib/posts.ts` | 6 long-form guides, as structured content blocks |
 | `src/lib/faqs.ts` | 23 site-wide FAQs, grouped by category |
 | `src/lib/reviews.ts` | Customer testimonials |
@@ -165,9 +165,9 @@ Built to WCAG 2.1 AA and verified, not assumed:
 
 ## Notes on the business details
 
-**The address is a corporate office, not a Tampa storefront.** `1090 NE 160th Street` is in North Miami Beach, and the phone number is a 305 (Miami-Dade) area code, while the company markets itself as a Tampa Bay mover. The site handles this by describing a **service area** covering Tampa Bay rather than claiming a Tampa street address it does not have. The footer and contact page label the address as a corporate office.
+**The address is a corporate office, not a Miami storefront.** `1090 NE 160th Street` is in North Miami Beach, and the phone number is a 305 (Miami-Dade) area code, while the company markets itself as a South Florida mover. The site handles this by describing a **service area** covering South Florida rather than claiming a Miami street address it does not have. The footer and contact page label the address as a corporate office.
 
-This is deliberate. Claiming a local address you don't occupy is the single fastest way to get a Google Business Profile suspended. If you open or already have a real Tampa address, put it in `site.hq` and the whole site updates.
+This is deliberate. Claiming a local address you don't occupy is the single fastest way to get a Google Business Profile suspended. If you open or already have a real Miami address, put it in `site.hq` and the whole site updates.
 
 **No photography yet.** The design uses gradients, texture and inline SVG throughout, so there are no broken images — but real photos of your crews and trucks would meaningfully increase conversion on the home, about and service pages. When you add them, use `next/image`.
 

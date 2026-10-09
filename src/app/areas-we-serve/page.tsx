@@ -9,10 +9,10 @@ import Reveal from "@/components/Reveal";
 import { Button, Card, CTABand, JsonLd, PageHero, Section, SectionHeading } from "@/components/ui";
 
 const DESCRIPTION =
-  "We serve 20 Tampa Bay communities across Hillsborough, Pinellas, Pasco and Polk counties — Tampa, St. Petersburg, Clearwater, Brandon and more.";
+  "We serve 20 South Florida communities across Miami-Dade and Broward counties — Miami, Miami Beach, Aventura, Fort Lauderdale and more.";
 
 export const metadata: Metadata = {
-  title: "Areas We Serve in Tampa Bay",
+  title: "Areas We Serve in South Florida",
   description: DESCRIPTION,
   alternates: { canonical: "/areas-we-serve" },
   openGraph: { title: `Areas We Serve | ${site.shortName}`, description: DESCRIPTION },
@@ -23,7 +23,7 @@ const TRAIL = [
   { name: "Areas We Serve", href: "/areas-we-serve" },
 ];
 
-const COUNTY_ORDER = ["Hillsborough County", "Pinellas County", "Pasco County", "Polk County"];
+const COUNTY_ORDER = ["Miami-Dade County", "Broward County"];
 
 export default function AreasPage() {
   return (
@@ -32,15 +32,15 @@ export default function AreasPage() {
         data={graph(
           webPageSchema({
             path: "/areas-we-serve",
-            name: "Areas We Serve — Tampa Bay Moving Service Area",
+            name: "Areas We Serve — South Florida Moving Service Area",
             description: DESCRIPTION,
             primaryAnswer:
-              "EZ Movers and Storage serves 20 communities across Hillsborough, Pinellas, Pasco and Polk counties, including Tampa, St. Petersburg, Clearwater, Brandon, Riverview and Wesley Chapel, with no travel surcharge inside the standard service area.",
+              "EZ Movers and Storage serves 20 communities across Miami-Dade and Broward counties, including Miami, Miami Beach, Aventura, Fort Lauderdale, Hollywood and Brickell, with no travel surcharge inside the standard service area.",
           }),
           breadcrumbSchema(TRAIL),
           {
             "@type": "ItemList",
-            name: "Tampa Bay service area",
+            name: "South Florida service area",
             itemListElement: areas.map((a, i) => ({
               "@type": "ListItem",
               position: i + 1,
@@ -53,8 +53,8 @@ export default function AreasPage() {
 
       <PageHero
         eyebrow="Service area"
-        title="Moving services across the Tampa Bay area"
-        lede="Twenty communities across four counties — Hillsborough, Pinellas, Pasco and Polk — with no travel surcharge anywhere inside our standard service area. We also handle long-distance moves out of Tampa Bay to anywhere in Florida and up the East Coast."
+        title="Moving services across the South Florida area"
+        lede="Twenty communities across four counties — Miami-Dade and Broward — with no travel surcharge anywhere inside our standard service area. We also handle long-distance moves out of South Florida to anywhere in Florida and up the East Coast."
         trail={TRAIL}
       >
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -152,8 +152,8 @@ export default function AreasPage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
           <Reveal>
             <SectionHeading
-              eyebrow="Beyond Tampa Bay"
-              title="Long-distance moves out of Tampa"
+              eyebrow="Beyond South Florida"
+              title="Long-distance moves out of Miami"
               lede="Your shipment travels on a dedicated truck with a guaranteed delivery window and the same crew loading and unloading — no consolidation with other households, no handing off between carriers."
               tone="dark"
             />
@@ -168,10 +168,10 @@ export default function AreasPage() {
           <Reveal delay={80}>
             <dl className="divide-y divide-white/10 overflow-hidden rounded-2xl border border-white/15">
               {[
-                ["Tampa → Miami / Fort Lauderdale", "Next-day"],
-                ["Tampa → Orlando / Jacksonville", "Next-day"],
-                ["Tampa → Atlanta / the Carolinas", "1–3 days"],
-                ["Tampa → Northeast corridor", "2–5 days"],
+                ["Miami → Orlando", "Next-day"],
+                ["Miami → Jacksonville", "Next-day"],
+                ["Miami → Atlanta / the Carolinas", "1–3 days"],
+                ["Miami → Northeast corridor", "2–5 days"],
                 ["Anywhere in Florida", "Next-day"],
               ].map(([route, time]) => (
                 <div key={route} className="flex flex-wrap items-baseline justify-between gap-4 px-6 py-4">
@@ -190,7 +190,7 @@ export default function AreasPage() {
           <SectionHeading
             eyebrow="What we offer"
             title="Every service, in every area"
-            lede="All ten services are available throughout the Tampa Bay service area."
+            lede="All ten services are available throughout the South Florida service area."
           />
         </Reveal>
         <div className="mt-10 flex flex-wrap gap-2">

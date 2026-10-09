@@ -234,7 +234,7 @@ export default async function PostPage({ params }: Params) {
 
             <div className="mt-12 rounded-2xl border border-navy-200 bg-navy-950 p-7 text-white sm:p-8">
               <h2 className="text-xl font-bold tracking-tight">
-                Moving in Tampa Bay? Get a real number.
+                Moving in South Florida? Get a real number.
               </h2>
               <p className="mt-2.5 text-[15px] leading-relaxed text-navy-300">
                 Free walkthrough, a written flat rate before moving day, and nothing added at the end.

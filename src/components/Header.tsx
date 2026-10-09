@@ -91,7 +91,7 @@ export default function Header() {
             </span>
             <span className="inline-flex items-center gap-1.5">
               <Icon.pin className="size-3.5 text-amber-brand-400" />
-              Serving all of Tampa Bay
+              Serving all of South Florida
             </span>
             <span className="inline-flex items-center gap-1.5">
               <Icon.star className="size-3.5 text-amber-brand-400" />
@@ -253,7 +253,7 @@ export default function Header() {
 
         {open === "areas" && (
           <MegaPanel onEnter={() => openPanel("areas")} onLeave={scheduleClose}>
-            <PanelHeading>Tampa Bay service area</PanelHeading>
+            <PanelHeading>South Florida service area</PanelHeading>
             <div className="grid gap-x-6 gap-y-1 sm:grid-cols-3 lg:grid-cols-4">
               {areas.map((a) => (
                 <Link

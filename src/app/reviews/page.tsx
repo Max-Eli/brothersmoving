@@ -6,7 +6,7 @@ import { Icon } from "@/components/Icons";
 import Reveal from "@/components/Reveal";
 import { Button, CTABand, JsonLd, PageHero, Section, SectionHeading } from "@/components/ui";
 
-const DESCRIPTION = `Read ${reviews.length} customer reviews of ${site.shortName} — feedback from moves across Tampa, St. Petersburg, Clearwater, Brandon and Tampa Bay.`;
+const DESCRIPTION = `Read ${reviews.length} customer reviews of ${site.shortName} — feedback from moves across Miami, Miami Beach, Aventura, Fort Lauderdale and Hollywood.`;
 
 export const metadata: Metadata = {
   title: "Customer Reviews",
@@ -29,7 +29,7 @@ export default function ReviewsPage() {
             path: "/reviews",
             name: `Customer Reviews — ${site.name}`,
             description: DESCRIPTION,
-            primaryAnswer: `${site.name} holds an average rating of ${site.stats.averageRating} out of 5 across ${site.stats.reviewCount} customer reviews from moves throughout the Tampa Bay area.`,
+            primaryAnswer: `${site.name} holds an average rating of ${site.stats.averageRating} out of 5 across ${site.stats.reviewCount} customer reviews from moves throughout the South Florida area.`,
           }),
           breadcrumbSchema(TRAIL),
           reviewsSchema(),
@@ -38,7 +38,7 @@ export default function ReviewsPage() {
 
       <PageHero
         eyebrow="Customer reviews"
-        title="What Tampa Bay customers say about us"
+        title="What South Florida customers say about us"
         lede={`${site.stats.averageRating} out of 5 across ${site.stats.reviewCount} reviews, from ${site.stats.movesCompleted} moves completed since ${site.founded}.`}
         trail={TRAIL}
       >

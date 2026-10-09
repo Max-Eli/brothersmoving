@@ -9,13 +9,13 @@ import Reveal from "@/components/Reveal";
 import { Button, Card, CTABand, JsonLd, PageHero, Section, SectionHeading } from "@/components/ui";
 
 const DESCRIPTION =
-  "Every moving service we offer across Tampa Bay: residential, commercial, long-distance, packing, storage, labor-only, specialty items and more.";
+  "Every moving service we offer across South Florida: residential, commercial, long-distance, packing, storage, labor-only, specialty items and more.";
 
 export const metadata: Metadata = {
-  title: "Moving Services in Tampa Bay",
+  title: "Moving Services in South Florida",
   description: DESCRIPTION,
   alternates: { canonical: "/services" },
-  openGraph: { title: `Moving Services in Tampa Bay | ${site.shortName}`, description: DESCRIPTION },
+  openGraph: { title: `Moving Services in South Florida | ${site.shortName}`, description: DESCRIPTION },
 };
 
 const TRAIL = [
@@ -30,10 +30,10 @@ export default function ServicesPage() {
         data={graph(
           webPageSchema({
             path: "/services",
-            name: "Moving Services in Tampa Bay",
+            name: "Moving Services in South Florida",
             description: DESCRIPTION,
             primaryAnswer:
-              "EZ Movers and Storage offers ten moving services across Tampa Bay: residential moving, commercial and office moving, long-distance moving, packing and unpacking, storage, labor-only help, specialty item moving, apartment and condo moving, senior and downsizing moves, and same-day or last-minute moving.",
+              "EZ Movers and Storage offers ten moving services across South Florida: residential moving, commercial and office moving, long-distance moving, packing and unpacking, storage, labor-only help, specialty item moving, apartment and condo moving, senior and downsizing moves, and same-day or last-minute moving.",
           }),
           breadcrumbSchema(TRAIL),
           {
@@ -51,8 +51,8 @@ export default function ServicesPage() {
 
       <PageHero
         eyebrow="Services"
-        title="Moving services across Tampa Bay"
-        lede="Ten services covering the full range of what a household or a business actually needs — from a studio move across Tampa to an interstate relocation, and the specialist work most crews should not attempt."
+        title="Moving services across South Florida"
+        lede="Ten services covering the full range of what a household or a business actually needs — from a studio move across Miami to an interstate relocation, and the specialist work most crews should not attempt."
         trail={TRAIL}
       >
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -162,8 +162,8 @@ export default function ServicesPage() {
         <Reveal>
           <SectionHeading
             eyebrow="Service area"
-            title="Every service, everywhere in Tampa Bay"
-            lede="All ten services are available across Hillsborough, Pinellas, Pasco and Polk counties, with no travel surcharge inside our standard area."
+            title="Every service, everywhere in South Florida"
+            lede="All ten services are available across Miami-Dade and Broward counties, with no travel surcharge inside our standard area."
           />
         </Reveal>
         <div className="mt-10 flex flex-wrap gap-2">

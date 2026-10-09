@@ -80,7 +80,7 @@ export function organizationSchema(): Json {
       "Packing and unpacking services",
       "Climate-controlled storage",
       "Piano and specialty item moving",
-      "Tampa Bay relocation",
+      "South Florida relocation",
     ],
     ...(site.social.length ? { sameAs: site.social.map((s) => s.url) } : {}),
   };
