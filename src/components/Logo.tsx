@@ -1,10 +1,10 @@
 /**
  * Brand mark: two chevrons in a rounded navy badge.
  *
- * The concept is doing two jobs — two chevrons for two brothers, and "»" as
- * fast-forward for the "EZ". The trailing chevron is deliberately smaller and
- * thinner than the leading one; that size progression is what reads as motion
- * rather than as a static pair of arrows.
+ * "»" reads as fast-forward, which is the "EZ" the name is built on; the pair
+ * also nods to the two brothers who founded the company. The trailing chevron
+ * is deliberately smaller and thinner than the leading one — that size
+ * progression is what reads as motion rather than a static pair of arrows.
  *
  * Drawn on a 64×64 grid with heavy strokes so it stays legible at 16px in a
  * browser tab, which is the size that actually constrains the design.
@@ -87,14 +87,14 @@ export function Logo({
       <LogoMark className="size-9 shrink-0 rounded-xl shadow-sm sm:size-10" />
       <span className="min-w-0 leading-none">
         <span
-          className={`block whitespace-nowrap text-[15px] font-bold tracking-tight sm:text-[17px] ${primary}`}
+          className={`block whitespace-nowrap text-[16px] font-bold tracking-tight sm:text-[18px] ${primary}`}
         >
-          Brothers <span className={accent}>EZ</span> Moving
+          <span className={accent}>EZ</span> Movers
         </span>
         <span
-          className={`mt-1 block text-[10px] font-semibold uppercase tracking-[0.14em] sm:text-[11px] ${secondary}`}
+          className={`mt-1 block text-[9.5px] font-semibold uppercase tracking-[0.18em] sm:text-[10.5px] ${secondary}`}
         >
-          of Tampa
+          and Storage
         </span>
       </span>
     </span>

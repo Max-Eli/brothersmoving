@@ -33,7 +33,7 @@ export default function ServicesPage() {
             name: "Moving Services in Tampa Bay",
             description: DESCRIPTION,
             primaryAnswer:
-              "Brothers EZ Moving of Tampa offers ten moving services across Tampa Bay: residential moving, commercial and office moving, long-distance moving, packing and unpacking, storage, labor-only help, specialty item moving, apartment and condo moving, senior and downsizing moves, and same-day or last-minute moving.",
+              "EZ Movers and Storage offers ten moving services across Tampa Bay: residential moving, commercial and office moving, long-distance moving, packing and unpacking, storage, labor-only help, specialty item moving, apartment and condo moving, senior and downsizing moves, and same-day or last-minute moving.",
           }),
           breadcrumbSchema(TRAIL),
           {

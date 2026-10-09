@@ -99,7 +99,7 @@ export default function HomePage() {
             name: `${site.name} | Movers in Tampa, FL`,
             description: site.description,
             primaryAnswer:
-              "Brothers EZ Moving of Tampa is a licensed and insured moving company serving the Tampa Bay area with local moves, long-distance moves, packing, storage and labor-only help, priced as a flat rate quoted before moving day.",
+              "EZ Movers and Storage is a licensed and insured moving company serving the Tampa Bay area with local moves, long-distance moves, packing, storage and labor-only help, priced as a flat rate quoted before moving day.",
           }),
           breadcrumbSchema([{ name: "Home", href: "/" }]),
           faqSchema(homeFaqs),
@@ -162,7 +162,7 @@ export default function HomePage() {
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_minmax(0,1.15fr)] lg:gap-16">
           <Reveal>
             <SectionHeading
-              eyebrow="Why Brothers EZ Moving"
+              eyebrow="Why EZ Movers and Storage"
               title="Most complaints about movers come down to the same two things"
               lede="A price that changed, and furniture that did not arrive the way it left. Everything below exists to make sure neither happens on your move."
             />
@@ -519,7 +519,7 @@ function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-navy-300">
-            Brothers EZ Moving is a licensed and insured moving company serving Tampa, St. Petersburg,
+            EZ Movers and Storage is a licensed and insured moving company serving Tampa, St. Petersburg,
             Clearwater and the whole Tampa Bay area. Local moves, long-distance moves, packing and
             storage — with a written flat rate agreed before moving day and no fees added at the end.
           </p>

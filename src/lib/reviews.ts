@@ -66,7 +66,7 @@ export const reviews: Review[] = [
     date: "2026-03-02",
     service: "Long-Distance Moving",
     title: "A real delivery date, not a two-week window",
-    body: "The national carrier I called first quoted a fourteen-day delivery spread, which made it impossible to book time off. Brothers EZ gave me a firm window, put everything on a dedicated truck, and the same crew that loaded in Clearwater unloaded in Charlotte two days later. The driver called me every day he was on the road.",
+    body: "The national carrier I called first quoted a fourteen-day delivery spread, which made it impossible to book time off. EZ Movers and Storage gave me a firm window, put everything on a dedicated truck, and the same crew that loaded in Clearwater unloaded in Charlotte two days later. The driver called me every day he was on the road.",
   },
   {
     name: "Luis and Ana F.",

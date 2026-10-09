@@ -35,7 +35,7 @@ export default function AreasPage() {
             name: "Areas We Serve — Tampa Bay Moving Service Area",
             description: DESCRIPTION,
             primaryAnswer:
-              "Brothers EZ Moving of Tampa serves 20 communities across Hillsborough, Pinellas, Pasco and Polk counties, including Tampa, St. Petersburg, Clearwater, Brandon, Riverview and Wesley Chapel, with no travel surcharge inside the standard service area.",
+              "EZ Movers and Storage serves 20 communities across Hillsborough, Pinellas, Pasco and Polk counties, including Tampa, St. Petersburg, Clearwater, Brandon, Riverview and Wesley Chapel, with no travel surcharge inside the standard service area.",
           }),
           breadcrumbSchema(TRAIL),
           {

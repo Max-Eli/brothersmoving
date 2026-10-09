@@ -31,7 +31,7 @@ export const areas: Area[] = [
     metaDescription:
       "Licensed and insured movers serving every Tampa neighborhood, from South Tampa and Hyde Park to New Tampa and Westchase. Flat-rate quotes. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving is a full-service moving company serving all of Tampa, including South Tampa, Hyde Park, Seminole Heights, Ybor City, Westshore, Channelside and New Tampa.",
+      "EZ Movers and Storage is a full-service moving company serving all of Tampa, including South Tampa, Hyde Park, Seminole Heights, Ybor City, Westshore, Channelside and New Tampa.",
     zips: ["33602", "33603", "33604", "33605", "33606", "33607", "33609", "33610", "33611", "33612", "33613", "33614", "33616", "33617", "33618", "33619", "33629", "33647"],
     neighborhoods: ["South Tampa", "Hyde Park", "Davis Islands", "Seminole Heights", "Ybor City", "Channelside", "Harbour Island", "Westshore", "Carrollwood", "New Tampa", "Tampa Heights", "SoHo", "Palma Ceia", "Ballast Point", "Sulphur Springs"],
     driveTime: "Home base — same-day service available",
@@ -79,7 +79,7 @@ export const areas: Area[] = [
     metaDescription:
       "St. Petersburg movers for downtown condos, Old Northeast historic homes and beach properties. Licensed, insured, flat-rate. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves all of St. Petersburg, including downtown high-rises, the Old Northeast, Kenwood, Snell Isle and the Gulf beaches.",
+      "EZ Movers and Storage serves all of St. Petersburg, including downtown high-rises, the Old Northeast, Kenwood, Snell Isle and the Gulf beaches.",
     zips: ["33701", "33702", "33703", "33704", "33705", "33706", "33707", "33709", "33710", "33711", "33712", "33713", "33714", "33716"],
     neighborhoods: ["Downtown St. Pete", "Old Northeast", "Historic Kenwood", "Snell Isle", "Shore Acres", "Jungle Terrace", "Crescent Lake", "Grand Central", "St. Pete Beach", "Tierra Verde"],
     driveTime: "30–45 minutes from Tampa",
@@ -127,7 +127,7 @@ export const areas: Area[] = [
     metaDescription:
       "Clearwater and Clearwater Beach movers. Condos, waterfront homes, 55+ communities and seasonal moves. Flat-rate quotes. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Clearwater, Clearwater Beach, Safety Harbor and Dunedin with local, long-distance and storage services.",
+      "EZ Movers and Storage serves Clearwater, Clearwater Beach, Safety Harbor and Dunedin with local, long-distance and storage services.",
     zips: ["33755", "33756", "33759", "33760", "33761", "33762", "33763", "33764", "33765", "33767"],
     neighborhoods: ["Clearwater Beach", "Countryside", "Island Estates", "Sand Key", "Morningside", "Harbor Oaks", "Downtown Clearwater", "Feather Sound"],
     driveTime: "40–55 minutes from Tampa",
@@ -175,7 +175,7 @@ export const areas: Area[] = [
     metaDescription:
       "Brandon movers for family homes, apartments and offices. Local and long-distance moving with flat-rate pricing. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Brandon, Valrico, Seffner and Riverview with residential, commercial and long-distance moving.",
+      "EZ Movers and Storage serves Brandon, Valrico, Seffner and Riverview with residential, commercial and long-distance moving.",
     zips: ["33508", "33509", "33510", "33511"],
     neighborhoods: ["Bloomingdale", "Providence Lakes", "Brandon Valrico Hills", "Lakewood Ridge", "Heather Lakes", "Sterling Ranch"],
     driveTime: "25–35 minutes from Tampa",
@@ -223,7 +223,7 @@ export const areas: Area[] = [
     metaDescription:
       "Wesley Chapel movers for new-construction homes, master-planned communities and family relocations. Flat-rate quotes. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Wesley Chapel and the surrounding Pasco County master-planned communities with residential and long-distance moving.",
+      "EZ Movers and Storage serves Wesley Chapel and the surrounding Pasco County master-planned communities with residential and long-distance moving.",
     zips: ["33543", "33544", "33545"],
     neighborhoods: ["Seven Oaks", "Meadow Pointe", "Union Park", "Epperson", "Watergrass", "Estancia", "New River"],
     driveTime: "30–40 minutes from Tampa",
@@ -271,7 +271,7 @@ export const areas: Area[] = [
     metaDescription:
       "Riverview movers serving family homes and new communities across south Hillsborough County. Flat-rate, licensed and insured. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Riverview and south Hillsborough County, including Panther Trace, Summerfield and the US-301 corridor communities.",
+      "EZ Movers and Storage serves Riverview and south Hillsborough County, including Panther Trace, Summerfield and the US-301 corridor communities.",
     zips: ["33569", "33578", "33579"],
     neighborhoods: ["Panther Trace", "Summerfield", "Boyette", "Rivercrest", "South Fork", "Ventana", "Triple Creek"],
     driveTime: "30–40 minutes from Tampa",
@@ -319,7 +319,7 @@ export const areas: Area[] = [
     metaDescription:
       "Lutz movers for large homes, acreage properties and 55+ communities in north Hillsborough. Flat-rate quotes. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Lutz and north Hillsborough County, including acreage properties and the Van Dyke and Dale Mabry corridors.",
+      "EZ Movers and Storage serves Lutz and north Hillsborough County, including acreage properties and the Van Dyke and Dale Mabry corridors.",
     zips: ["33548", "33549", "33558", "33559"],
     neighborhoods: ["Cheval", "Lake Fern", "Sunset Lakes", "Willow Bend", "Calusa Trace", "Heritage Harbor"],
     driveTime: "25–35 minutes from Tampa",
@@ -367,7 +367,7 @@ export const areas: Area[] = [
     metaDescription:
       "Temple Terrace movers for family homes, USF-area rentals and student moves. Flat-rate pricing. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Temple Terrace and the USF area with residential moving, apartment moves and labor-only help.",
+      "EZ Movers and Storage serves Temple Terrace and the USF area with residential moving, apartment moves and labor-only help.",
     zips: ["33617", "33637"],
     neighborhoods: ["Temple Terrace Golf & Country Club", "Raintree Village", "Terrace Park", "Woodmont", "USF area"],
     driveTime: "20–30 minutes from Tampa",
@@ -415,7 +415,7 @@ export const areas: Area[] = [
     metaDescription:
       "Plant City movers for homes, farms and businesses in east Hillsborough County. Licensed and insured, flat-rate. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Plant City and east Hillsborough County with residential, agricultural-property and commercial moving.",
+      "EZ Movers and Storage serves Plant City and east Hillsborough County with residential, agricultural-property and commercial moving.",
     zips: ["33563", "33565", "33566", "33567"],
     neighborhoods: ["Historic Downtown Plant City", "Walden Lake", "Sparkman", "Turkey Creek", "Knights"],
     driveTime: "35–45 minutes from Tampa",
@@ -463,7 +463,7 @@ export const areas: Area[] = [
     metaDescription:
       "Carrollwood movers for established family homes and condos in north Tampa. Flat-rate quotes, licensed and insured. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Carrollwood, Original Carrollwood and Carrollwood Village in north Tampa.",
+      "EZ Movers and Storage serves Carrollwood, Original Carrollwood and Carrollwood Village in north Tampa.",
     zips: ["33618", "33624", "33625"],
     neighborhoods: ["Original Carrollwood", "Carrollwood Village", "Northdale", "Lake Magdalene", "Country Run"],
     driveTime: "15–25 minutes from Tampa",
@@ -511,7 +511,7 @@ export const areas: Area[] = [
     metaDescription:
       "Westchase movers for family homes, townhomes and villas in west Tampa. Flat-rate pricing, licensed and insured. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Westchase, Town 'n' Country and the west Tampa communities along the Veterans Expressway.",
+      "EZ Movers and Storage serves Westchase, Town 'n' Country and the west Tampa communities along the Veterans Expressway.",
     zips: ["33626", "33635"],
     neighborhoods: ["The Bridges", "Radcliffe", "Harbor Links", "Keswick Forest", "Glenfield", "Countryway"],
     driveTime: "25–35 minutes from Tampa",
@@ -559,7 +559,7 @@ export const areas: Area[] = [
     metaDescription:
       "New Tampa movers serving Tampa Palms, Hunter's Green, Cross Creek and Live Oak. Flat-rate quotes. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves New Tampa, including Tampa Palms, Hunter's Green, Cross Creek, Live Oak and the Bruce B. Downs corridor.",
+      "EZ Movers and Storage serves New Tampa, including Tampa Palms, Hunter's Green, Cross Creek, Live Oak and the Bruce B. Downs corridor.",
     zips: ["33647", "33612", "33613"],
     neighborhoods: ["Tampa Palms", "Hunter's Green", "Cross Creek", "Live Oak Preserve", "Arbor Greene", "West Meadows", "K-Bar Ranch"],
     driveTime: "25–35 minutes from Tampa",
@@ -607,7 +607,7 @@ export const areas: Area[] = [
     metaDescription:
       "Land O' Lakes movers for family homes, acreage and 55+ communities in Pasco County. Flat-rate quotes. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Land O' Lakes and central Pasco County with residential moving, storage and long-distance relocations.",
+      "EZ Movers and Storage serves Land O' Lakes and central Pasco County with residential moving, storage and long-distance relocations.",
     zips: ["34637", "34638", "34639"],
     neighborhoods: ["Connerton", "Ballantrae", "Lake Padgett", "Wilderness Lake", "Plantation Palms", "Del Webb Bexley"],
     driveTime: "30–40 minutes from Tampa",
@@ -655,7 +655,7 @@ export const areas: Area[] = [
     metaDescription:
       "Valrico movers for family homes and acreage in east Hillsborough. Licensed, insured, flat-rate pricing. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Valrico and east Hillsborough County with residential moving, packing and storage.",
+      "EZ Movers and Storage serves Valrico and east Hillsborough County with residential moving, packing and storage.",
     zips: ["33594", "33596"],
     neighborhoods: ["Bloomingdale", "Diamond Hill", "Buckhorn", "River Hills", "Copper Ridge"],
     driveTime: "30–40 minutes from Tampa",
@@ -703,7 +703,7 @@ export const areas: Area[] = [
     metaDescription:
       "Apollo Beach movers for waterfront homes, canal properties and new communities in south Hillsborough. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Apollo Beach, Ruskin and the south Hillsborough waterfront communities.",
+      "EZ Movers and Storage serves Apollo Beach, Ruskin and the south Hillsborough waterfront communities.",
     zips: ["33572"],
     neighborhoods: ["MiraBay", "Symphony Isles", "Andalucia", "Waterset", "Covington Park"],
     driveTime: "35–45 minutes from Tampa",
@@ -751,7 +751,7 @@ export const areas: Area[] = [
     metaDescription:
       "Largo movers serving homes, condos and 55+ communities across central Pinellas County. Flat-rate quotes. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Largo and central Pinellas County, including its many 55+ and mobile home communities.",
+      "EZ Movers and Storage serves Largo and central Pinellas County, including its many 55+ and mobile home communities.",
     zips: ["33770", "33771", "33773", "33774", "33778"],
     neighborhoods: ["Belleair", "Indian Rocks Beach", "Harbor Bluffs", "East Bay", "Ridgecrest"],
     driveTime: "40–55 minutes from Tampa",
@@ -799,7 +799,7 @@ export const areas: Area[] = [
     metaDescription:
       "Palm Harbor movers for family homes, golf communities and waterfront properties in north Pinellas. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Palm Harbor, Dunedin and north Pinellas County with residential moving, packing and storage.",
+      "EZ Movers and Storage serves Palm Harbor, Dunedin and north Pinellas County with residential moving, packing and storage.",
     zips: ["34683", "34684", "34685"],
     neighborhoods: ["Ozona", "Crystal Beach", "Lansbrook", "Highland Lakes", "Innisbrook", "Downtown Palm Harbor"],
     driveTime: "45–60 minutes from Tampa",
@@ -847,7 +847,7 @@ export const areas: Area[] = [
     metaDescription:
       "Seffner movers for homes and acreage properties in east Hillsborough County. Flat-rate quotes, licensed and insured. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Seffner, Mango and the I-4 corridor communities of east Hillsborough County.",
+      "EZ Movers and Storage serves Seffner, Mango and the I-4 corridor communities of east Hillsborough County.",
     zips: ["33584"],
     neighborhoods: ["Mango", "Kingsway", "Parsons Pointe", "Lakewood Estates"],
     driveTime: "25–35 minutes from Tampa",
@@ -895,7 +895,7 @@ export const areas: Area[] = [
     metaDescription:
       "Town 'n' Country movers for homes, apartments and condos in west Tampa. Flat-rate pricing, licensed and insured. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Town 'n' Country and west Tampa, including the Hillsborough Avenue and Memorial Highway corridors.",
+      "EZ Movers and Storage serves Town 'n' Country and west Tampa, including the Hillsborough Avenue and Memorial Highway corridors.",
     zips: ["33615", "33634", "33614"],
     neighborhoods: ["Countryway", "Twelve Oaks", "Bay Crest", "Pine Crest", "Woodbridge"],
     driveTime: "20–30 minutes from Tampa",
@@ -943,7 +943,7 @@ export const areas: Area[] = [
     metaDescription:
       "Lakeland movers serving Polk County homes and businesses, plus Lakeland–Tampa relocations. Flat-rate quotes. Call (305) 697-8717.",
     summary:
-      "Brothers EZ Moving serves Lakeland and Polk County, with frequent Lakeland-to-Tampa and Lakeland-to-Orlando relocations.",
+      "EZ Movers and Storage serves Lakeland and Polk County, with frequent Lakeland-to-Tampa and Lakeland-to-Orlando relocations.",
     zips: ["33801", "33803", "33805", "33809", "33810", "33811", "33812", "33813"],
     neighborhoods: ["Historic Dixieland", "Lake Morton", "Grasslands", "Oakbridge", "Highland City", "South Lakeland"],
     driveTime: "45–60 minutes from Tampa",

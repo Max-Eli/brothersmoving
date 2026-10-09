@@ -83,7 +83,7 @@ export default function AboutPage() {
               <div className="mt-8">
                 <Prose>
                   <p>
-                    Brothers EZ Moving started in {site.founded} with two brothers, one truck and a
+                    EZ Movers and Storage started in {site.founded} with two brothers, one truck and a
                     straightforward observation: almost every complaint people had about movers came
                     down to the same two things. The price changed, or the furniture did not arrive
                     the way it left.

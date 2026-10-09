@@ -1,4 +1,4 @@
-# Brothers EZ Moving of Tampa
+# EZ Movers and Storage
 
 Marketing website for a Tampa Bay moving company. Next.js 15 (App Router), React 19, Tailwind CSS v4, TypeScript. 57 pages, statically prerendered.
 

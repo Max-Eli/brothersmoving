@@ -5,16 +5,19 @@
  */
 
 export const site = {
-  name: "Brothers EZ Moving of Tampa",
-  shortName: "Brothers EZ Moving",
-  legalName: "Brothers EZ Moving of Tampa LLC",
+  name: "EZ Movers and Storage",
+  /** Used for <title> suffixes and tight spaces, where the full name is long. */
+  shortName: "EZ Movers",
+  // Must match the registered entity exactly — confirm against the filing
+  // before launch, since this appears in the legal pages and the schema.
+  legalName: "EZ Movers and Storage LLC",
   url: "https://brothersezmove.com",
   domain: "brothersezmove.com",
 
   tagline: "Tampa Bay's Straightforward, Flat-Rate Moving Company",
   /** Long form — used for JSON-LD and on-page copy, where length is fine. */
   description:
-    "Brothers EZ Moving of Tampa is a licensed and insured moving company serving Tampa, St. Petersburg, Clearwater and the surrounding Tampa Bay area. Local moves, long-distance moves, packing, storage and labor-only help — quoted up front, with no hidden fees.",
+    "EZ Movers and Storage is a licensed and insured moving company serving Tampa, St. Petersburg, Clearwater and the surrounding Tampa Bay area. Local moves, long-distance moves, packing, storage and labor-only help — quoted up front, with no hidden fees.",
 
   /** Short form — meta descriptions only. Kept under 160 chars so search
    *  results are not truncated mid-sentence. */

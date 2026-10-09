@@ -117,7 +117,7 @@ export default function Header() {
         <div ref={navRef} className="mx-auto flex h-18 max-w-7xl items-center gap-2 px-3 py-3.5 sm:gap-4 sm:px-6">
           <Logo />
 
-          <nav aria-label="Primary" className="ml-auto hidden items-center gap-0.5 xl:flex">
+          <nav aria-label="Primary" className="ml-auto hidden items-center gap-0.5 desk:flex">
             {NAV.map((item) => {
               const active = isActive(item.href);
               if (!item.panel) {
@@ -162,7 +162,7 @@ export default function Header() {
             })}
           </nav>
 
-          <div className="ml-auto flex shrink-0 items-center gap-1.5 sm:gap-2 xl:ml-4">
+          <div className="ml-auto flex shrink-0 items-center gap-1.5 sm:gap-2 desk:ml-4">
             <a
               href={site.phoneHref}
               className="hidden items-center gap-2 rounded-xl px-3 py-2 text-[15px] font-semibold text-navy-900 transition hover:bg-navy-50 sm:inline-flex"
@@ -188,7 +188,7 @@ export default function Header() {
               onClick={() => setMobileOpen((v) => !v)}
               aria-label={mobileOpen ? "Close menu" : "Open menu"}
               aria-expanded={mobileOpen}
-              className="inline-flex size-11 shrink-0 items-center justify-center rounded-xl border border-navy-200 text-navy-800 transition hover:bg-navy-50 xl:hidden"
+              className="inline-flex size-11 shrink-0 items-center justify-center rounded-xl border border-navy-200 text-navy-800 transition hover:bg-navy-50 desk:hidden"
             >
               {mobileOpen ? <Icon.close className="size-5" /> : <Icon.menu className="size-5" />}
             </button>
@@ -280,7 +280,7 @@ export default function Header() {
 
       {/* Mobile drawer */}
       {mobileOpen && (
-        <div className="fixed inset-0 top-[72px] z-40 overflow-y-auto bg-white xl:hidden">
+        <div className="fixed inset-0 top-[72px] z-40 overflow-y-auto bg-white desk:hidden">
           <nav aria-label="Mobile" className="px-4 pb-28 pt-4">
             <MobileGroup title="Services" href="/services" items={services.map((s) => ({ label: s.name, href: `/services/${s.slug}` }))} />
             <MobileGroup
@@ -348,7 +348,7 @@ function MegaPanel({
     <div
       onMouseEnter={onEnter}
       onMouseLeave={onLeave}
-      className="absolute inset-x-0 top-full hidden border-b border-navy-100 bg-white shadow-lift xl:block"
+      className="absolute inset-x-0 top-full hidden border-b border-navy-100 bg-white shadow-lift desk:block"
     >
       <div className="mx-auto max-w-7xl px-6 py-7">{children}</div>
     </div>

@@ -48,11 +48,11 @@ export default function Footer() {
             <div className="flex items-center gap-2.5">
               <LogoMark className="size-10 shrink-0 rounded-xl ring-1 ring-white/15" />
               <span className="leading-none">
-                <span className="block text-[17px] font-bold tracking-tight text-white">
-                  Brothers <span className="text-amber-brand-400">EZ</span> Moving
+                <span className="block text-[18px] font-bold tracking-tight text-white">
+                  <span className="text-amber-brand-400">EZ</span> Movers
                 </span>
-                <span className="mt-1 block text-[11px] font-semibold uppercase tracking-[0.14em] text-navy-400">
-                  of Tampa
+                <span className="mt-1 block text-[10.5px] font-semibold uppercase tracking-[0.18em] text-navy-400">
+                  and Storage
                 </span>
               </span>
             </div>
